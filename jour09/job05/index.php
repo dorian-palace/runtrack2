@@ -28,3 +28,15 @@ echo "<pre>";
                         echo "<td>$value</td>";
                     } ?> 
         </tr>
+
+        <tr>
+            <?php foreach($res[1] as $key => $value){
+                        echo "<td>$value</td>";
+                    } ?> 
+        </tr>
+
+        <tr>
+            <?php foreach($res[2] as $key => $value){
+                        echo "<td>$value</td>";
+                    } ?> 
+        </tr>
